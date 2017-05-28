@@ -42,7 +42,7 @@
     max-width: 1170px;
     margin: auto;
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
 /*    commit bitbacket*/
 }
 
