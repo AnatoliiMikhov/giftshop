@@ -1,0 +1,249 @@
+/* ---------------- Fonts ------------------------------*/
+
+
+/* ---------------- Fonts ------------------------------*/
+
+
+/* ---------------- Fonts ------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/*font-family: 'Lato', sans-serif;*/
+
+
+/*-------------------------------------------*/
+
+
+/*-------------------------------*/
+
+
+/*------------------*/
+
+
+/*Common Style*/
+
+
+/*--------------------------------------------------------------
+-----------------------  Common Style --------------------------
+----------------------------------------------------------------
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.common {
+    margin-top: 15px;
+}
+
+.workspace {
+    display: block;
+    max-width: 1170px;
+    margin: auto;
+    position: relative;
+    overflow-x: hidden;
+/*    commit bitbacket*/
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*--------------------------------------------------------------
+-----------------------STYLE fo HEADER--------------------------
+----------------------------------------------------------------
+*/
+
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.header-left {
+    width: 15%
+}
+
+.header-right {
+    width: 85%;
+}
+
+.header-right-top {
+    margin-bottom: 13px;
+}
+
+.header-nav ul{
+    text-align: right;
+        margin: 0;
+}
+
+.header-nav>ul>li {
+    display: inline-block;
+    margin-left: 34px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #505050;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.header-right-bottom {
+    background: #f6f6f6;
+}
+
+.header-right-bottom ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.head-bottom-menu li {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    margin-left: 5px;
+    background: #05aecc;
+}
+
+ul.head-bottom-menu li:nth-child(2n) {
+    background-color: #f0626e;
+}
+
+.ico-1 img,
+.ico-2 img {
+    margin-left: 10px;
+    margin-bottom: -5px;
+}
+
+.head-bottom-menu a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 32px;
+    color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+-----------------------STYLE fo NAV after HEADER----------------
+----------------------------------------------------------------
+*/
+
+.nav-after-header>ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #05aecc;
+/*    -webkit-padding-start: 0;*/
+        padding: 0 70px;
+}
+
+.nav-after-header>ul>li {
+    display: inline-flex;
+}
+
+.nav-after-header li>a {
+    color: #fff;
+    padding: 23px 25px;
+}
+
+.nav-after-header>ul>li>a:hover {
+    background: #fff;
+    color: #ef5966;
+}
+
+
+/*--------------------------------------------------------------
+-----------------------STYLE fo Drop-Down List----------------
+----------------------------------------------------------------
+*/
+
+.nav-after-header li {
+    position: relative;
+}
+
+.nav-after-header li>ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: rgba(253, 252, 249, 0.5);
+    padding: 0 18px;
+    box-shadow: 0 -5px 10px rgb(223, 223, 223);
+    transition: opacity 1s, visibility 1s linear;
+}
+
+.nav-after-header li:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*style last element item menu block2*/
+
+.nav-after-header>ul>li:last-child:hover ul {
+    position: absolute;
+    top: 70px;
+    left: -214px;
+}
+
+.nav-after-header>ul>li>ul>li {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 262px;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 15px 0;
+}
+
+.nav-after-header>ul>li>ul>li:last-child {
+    border: none;
+}
+
+.drop-down-image {
+    width: 33.3333%;
+    align-self: center;
+}
+
+.drop-down-item-content {
+    width: 66.6666%;
+}
+
+.nav-after-header>ul>li>ul>li h4,
+.drop-down-item-content h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(239, 89, 102);
+    margin: 0;
+}
+
+.drop-down-item-content p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin: 2px 0 6px 0;
+    line-height: 1.0;
+}
+
+.drop-down-item-content a {
+    color: #fff;
+    background: #05aecc;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    padding: 5px 25px;
+}
