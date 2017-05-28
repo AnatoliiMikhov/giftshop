@@ -160,6 +160,8 @@ ul.head-bottom-menu li:nth-child(2n) {
     background: #05aecc;
 /*    -webkit-padding-start: 0;*/
         padding: 0 70px;
+        -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
 }
 
 .nav-after-header>ul>li {
