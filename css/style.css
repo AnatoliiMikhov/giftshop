@@ -49,8 +49,6 @@ html, body {
     max-width: 1170px;
     margin: auto;
     position: relative;
-    
-/*    commit bitbacket*/
 }
 
 a {
@@ -114,9 +112,10 @@ a {
 }
 
 .head-bottom-menu li {
-    display: -webkit-inline-box;
+/*    display: -webkit-inline-box;
     display: -ms-inline-flexbox;
-    display: inline-flex;
+    display: inline-flex;*/
+    display: inline-block;
     -webkit-box-align: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
@@ -267,13 +266,6 @@ ul.head-bottom-menu li:nth-child(2n) {
     margin-right: 5px;
 }
 
-.photo-top-right div{
-    margin-bottom: 1px;
-}
-.photo-top-right div + div {
-    margin-bottom: 0;
-}
-
 .search-block {
     background: #f0626e;
     padding: 50px 50px 50px 55px;
@@ -282,7 +274,7 @@ ul.head-bottom-menu li:nth-child(2n) {
 
 }
 
-.search-block form{
+.search-block label{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -295,6 +287,67 @@ ul.head-bottom-menu li:nth-child(2n) {
     border: none;
     box-shadow: 3px 3px 5px #bc4a54;
 }
+
+.photo-top-right > div:first-child{
+    position: relative;
+    margin-bottom: 1px;
+}
+
+.photo-top-right > div > div {
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    width: 267px;
+    height: 80px;
+    padding: 8px 8px 8px 15px;
+    background-color: rgb(54, 42, 79);
+    opacity: 0.8;
+}
+
+.photo-top-right h2 {
+    font-size: 35px;
+    font-family: Aparajita, "Aparajita sa";
+    color: rgb(239, 89, 102);
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.photo-top-right p {
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
