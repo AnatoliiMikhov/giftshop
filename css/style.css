@@ -266,6 +266,61 @@ ul.head-bottom-menu li:nth-child(2n) {
     margin-right: 5px;
 }
 
+.photo-top-left > div {
+    position: relative;
+}
+
+.photo-top-left > div > div{
+    position: absolute;
+    left:0;
+    bottom: 55px;
+    background-color: rgb(54, 42, 79);
+    opacity: 0.8;
+    width: 345px;
+    height: 104px;
+    padding: 5px 17px 0px;
+}
+
+.photo-top-left > div > div + div{
+    position: absolute;
+    left: 0;
+    bottom: 13px;
+    width: 345px;
+    height: 40px;
+    background: rgb(239, 89, 102);
+    opacity: 0.9;
+    padding: 12px 12px 12px 18px;
+}
+
+.photo-top-left > div > div h2{
+    font-size: 58px;
+    font-family: Aparajita, "Aparajita sa", sans-serif;
+    color: rgb(239, 89, 102);
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.photo-top-left > div > div p{
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin-top: -10px;
+}
+
+.photo-top-left > div > div + div p{
+    font-size: 20px;
+    font-family: Aparajita, "Aparajita sa", sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin: 0;
+}
+
+
+
 .search-block {
     background: #f0626e;
     padding: 50px 50px 50px 55px;
@@ -288,7 +343,7 @@ ul.head-bottom-menu li:nth-child(2n) {
     box-shadow: 3px 3px 5px #bc4a54;
 }
 
-.photo-top-right > div:first-child{
+.photo-top-right > div{
     position: relative;
     margin-bottom: 1px;
 }
