@@ -306,7 +306,7 @@ ul.head-bottom-menu li:nth-child(2n) {
 
 .photo-top-right h2 {
     font-size: 35px;
-    font-family: Aparajita, "Aparajita sa";
+    font-family: Aparajita, "Aparajita sa", sans-serif;
     color: rgb(239, 89, 102);
     line-height: 1.2;
     text-transform: uppercase;
