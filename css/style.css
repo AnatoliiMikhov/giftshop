@@ -345,7 +345,7 @@ ul.head-bottom-menu li:nth-child(2n) {
     margin-bottom: 0.5px;
 }
 
-.photo-top-right > div > div {
+.photo-top-right > div:first-child > div {
     position: absolute;
     bottom: 12px;
     left: 0;
@@ -373,6 +373,59 @@ ul.head-bottom-menu li:nth-child(2n) {
     line-height: 1.2;
     margin-top: -10px;
 }
+/*Baby Shop hover in order block*/
+.baby-price-hover{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0px;
+    bottom: 35px;
+    visibility: hidden;
+}
+
+.photo-top-right div:hover .baby-price-hover{
+    background: #636363;
+    opacity: 0.8;
+    visibility: visible;
+    cursor: pointer;
+}
+
+.baby-price-hover > div:first-child{
+    background: #05aecc;
+    padding: 20px 7px 20px 12px;
+}
+
+.baby-price-hover > div:first-child + div{
+    background: #00a1be;
+    padding: 15px;
+}
+
+.baby-price-hover > div:first-child + div + div{
+    background: #f0626e;
+    padding: 16px 15px 15px;
+}
+
+.baby-price-hover > div:last-child{
+    background: #323232;
+    padding: 15px;
+}
+
+.baby-price-hover h4{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.baby-price-hover span{
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+
+
 
 
 
