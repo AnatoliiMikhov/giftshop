@@ -276,20 +276,17 @@ ul.head-bottom-menu li:nth-child(2n) {
     bottom: 55px;
     background-color: rgb(54, 42, 79);
     opacity: 0.8;
-    width: 345px;
-    height: 104px;
-    padding: 5px 17px 0px;
+    padding: 5px 17.5px 0px;
 }
 
 .photo-top-left > div > div + div{
     position: absolute;
     left: 0;
     bottom: 13px;
-    width: 345px;
-    height: 40px;
     background: rgb(239, 89, 102);
     opacity: 0.9;
-    padding: 12px 12px 12px 18px;
+    text-align: center;
+    padding: 9px 20px 8px 22px;
 }
 
 .photo-top-left > div > div h2{
@@ -307,7 +304,7 @@ ul.head-bottom-menu li:nth-child(2n) {
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     line-height: 1.2;
-    margin-top: -10px;
+    margin-top: -13px;
 }
 
 .photo-top-left > div > div + div p{
@@ -345,7 +342,7 @@ ul.head-bottom-menu li:nth-child(2n) {
 
 .photo-top-right > div{
     position: relative;
-    margin-bottom: 1px;
+    margin-bottom: 0.5px;
 }
 
 .photo-top-right > div > div {
