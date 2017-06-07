@@ -281,7 +281,7 @@ ul.head-bottom-menu li:nth-child(2n) {
     bottom: 55px;
     background-color: rgb(54, 42, 79);
     opacity: 0.8;
-    padding: 5px 17.5px 0;
+    padding: 5px 17px 0;
 }
 
 .photo-top-left > div > div + div{
@@ -347,7 +347,7 @@ ul.head-bottom-menu li:nth-child(2n) {
 
 .photo-top-right > div{
     position: relative;
-    margin-bottom: 0.5px;
+    margin-bottom: 1px;
 }
 
 .photo-top-right > div:first-child > div {
@@ -378,7 +378,7 @@ ul.head-bottom-menu li:nth-child(2n) {
     line-height: 1.2;
     margin-top: -10px;
 }
-
+/*Blackout for children's store block*/
 .photo-top-right > div:nth-child(2)::after{
     content: '';
     background: #3b4050;
