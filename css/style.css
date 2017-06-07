@@ -16,12 +16,7 @@ html, body {
     display: flex;
 }
 
-.common {
-    margin-top: 15px;
-}
-
 .workspace {
-    display: block;
     max-width: 1170px;
     margin: auto;
     position: relative;
@@ -41,6 +36,7 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 15px;
 }
 
 .header-left {
