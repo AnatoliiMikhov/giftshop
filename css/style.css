@@ -1,28 +1,4 @@
-/* ---------------- Fonts ------------------------------*/
-
-
-/* ---------------- Fonts ------------------------------*/
-
-
-/* ---------------- Fonts ------------------------------*/
-
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
-/*font-family: 'Lato', sans-serif;*/
-
-
-/*-------------------------------------------*/
-
-
-/*-------------------------------*/
-
-
-/*------------------*/
-
-
 /*Common Style*/
-
-
 /*--------------------------------------------------------------
 -----------------------  Common Style --------------------------
 ----------------------------------------------------------------
@@ -112,9 +88,6 @@ a {
 }
 
 .head-bottom-menu li {
-/*    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;*/
     display: inline-block;
     -webkit-box-align: stretch;
     -ms-flex-align: stretch;
