@@ -38,7 +38,7 @@ a {
 STYLE fo HEADER
 --------------------------------------------------------------
 */
-.header{
+.header {
     margin-top: 15px;
 }
 
@@ -132,7 +132,7 @@ STYLE fo NAV after HEADER
     margin-bottom: 15px;
 }
 
-.nav-after-header .workspace> ul {
+.nav-after-header .workspace > ul {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -384,14 +384,13 @@ Blackout for children's store block
 
 .photo-top-right > div:nth-child(2)::after {
     content: '';
-    background: #3b4050;
+    background: rgba(51, 45, 46, 0.87);
     height: auto;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     top: 0;
-    opacity: 0.8;
     visibility: hidden;
 }
 
