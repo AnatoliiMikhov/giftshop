@@ -127,12 +127,12 @@ STYLE fo NAV after HEADER
 --------------------------------------------------------------
 */
 
-.nav-after-header {
+.nav-after-header .workspace {
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.nav-after-header > ul {
+.nav-after-header .workspace> ul {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -144,16 +144,16 @@ STYLE fo NAV after HEADER
     -webkit-margin-after: 0;
 }
 
-.nav-after-header > ul > li {
+.nav-after-header .workspace > ul > li {
     display: inline-flex;
 }
 
-.nav-after-header li > a {
+.nav-after-header .workspace li > a {
     color: #fff;
     padding: 23px 25px;
 }
 
-.nav-after-header > ul > li > a:hover {
+.nav-after-header .workspace > ul > li > a:hover {
     background: #fff;
     color: #ef5966;
 }
@@ -164,11 +164,11 @@ STYLE fo Drop-Down List
 --------------------------------------------------------------
 */
 
-.nav-after-header li {
+.nav-after-header .workspace li {
     position: relative;
 }
 
-.nav-after-header li > ul {
+.nav-after-header .workspace li > ul {
     visibility: hidden;
     opacity: 0;
     position: absolute;
@@ -180,11 +180,11 @@ STYLE fo Drop-Down List
     transition: opacity 1s, visibility 1s linear;
 }
 
-.nav-after-header li:last-child > ul {
+.nav-after-header .workspace li:last-child > ul {
     left: -145px;
 }
 
-.nav-after-header li:hover ul {
+.nav-after-header .workspace li:hover ul {
     visibility: visible;
     opacity: 1;
     z-index: 50;
@@ -196,13 +196,13 @@ Style last element item menu block2
 --------------------------------------------------------------
 */
 
-.nav-after-header > ul > li:last-child:hover ul {
+.nav-after-header .workspace > ul > li:last-child:hover ul {
     position: absolute;
     /*top: 70px;*/
     left: -214px;
 }
 
-.nav-after-header > ul > li > ul > li {
+.nav-after-header .workspace > ul > li > ul > li {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -211,7 +211,7 @@ Style last element item menu block2
     padding: 15px 0;
 }
 
-.nav-after-header > ul > li > ul > li:last-child {
+.nav-after-header .workspace > ul > li > ul > li:last-child {
     border: none;
 }
 
@@ -224,7 +224,7 @@ Style last element item menu block2
     width: 66.6666%;
 }
 
-.nav-after-header > ul > li > ul > li h4,
+.nav-after-header .workspace > ul > li > ul > li h4,
 .drop-down-item-content h4 {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
