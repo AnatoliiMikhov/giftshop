@@ -38,12 +38,15 @@ a {
 STYLE fo HEADER
 --------------------------------------------------------------
 */
+.header{
+    margin-top: 15px;
+}
 
-.header {
+.header .workspace {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 15px;
+
 }
 
 .header-left {
