@@ -8,6 +8,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 html, body {
     overflow-x: hidden;
 }
@@ -26,10 +27,10 @@ a {
     text-decoration: none;
 }
 
-
-/*--------------------------------------------------------------
------------------------STYLE fo HEADER--------------------------
-----------------------------------------------------------------
+/*
+--------------------------------------------------------------
+STYLE fo HEADER
+--------------------------------------------------------------
 */
 
 .header {
@@ -51,12 +52,12 @@ a {
     margin-bottom: 13px;
 }
 
-.header-nav ul{
+.header-nav ul {
     text-align: right;
-        margin: 0;
+    margin: 0;
 }
 
-.header-nav>ul>li {
+.header-nav > ul > li {
     display: inline-block;
     margin-left: 34px;
 }
@@ -111,52 +112,54 @@ ul.head-bottom-menu li:nth-child(2n) {
     color: #fff;
 }
 
-
-/*--------------------------------------------------------------
------------------------STYLE fo NAV after HEADER----------------
-----------------------------------------------------------------
+/*
+--------------------------------------------------------------
+STYLE fo NAV after HEADER
+--------------------------------------------------------------
 */
-.nav-after-header{
+
+.nav-after-header {
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.nav-after-header>ul {
+
+.nav-after-header > ul {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
     background: #05aecc;
-/*    -webkit-padding-start: 0;*/
-        padding: 0 70px;
-        -webkit-margin-before: 0;
+    /*    -webkit-padding-start: 0;*/
+    padding: 0 70px;
+    -webkit-margin-before: 0;
     -webkit-margin-after: 0;
 }
 
-.nav-after-header>ul>li {
+.nav-after-header > ul > li {
     display: inline-flex;
 }
 
-.nav-after-header li>a {
+.nav-after-header li > a {
     color: #fff;
     padding: 23px 25px;
 }
 
-.nav-after-header>ul>li>a:hover {
+.nav-after-header > ul > li > a:hover {
     background: #fff;
     color: #ef5966;
 }
 
-
-/*--------------------------------------------------------------
------------------------STYLE fo Drop-Down List----------------
-----------------------------------------------------------------
+/*
+--------------------------------------------------------------
+STYLE fo Drop-Down List
+--------------------------------------------------------------
 */
 
 .nav-after-header li {
     position: relative;
 }
 
-.nav-after-header li>ul {
+.nav-after-header li > ul {
     visibility: hidden;
     opacity: 0;
     position: absolute;
@@ -168,7 +171,7 @@ ul.head-bottom-menu li:nth-child(2n) {
     transition: opacity 1s, visibility 1s linear;
 }
 
-.nav-after-header li:last-child > ul{
+.nav-after-header li:last-child > ul {
     left: -145px;
 }
 
@@ -178,16 +181,19 @@ ul.head-bottom-menu li:nth-child(2n) {
     z-index: 50;
 }
 
+/*
+--------------------------------------------------------------
+Style last element item menu block2
+--------------------------------------------------------------
+*/
 
-/*style last element item menu block2*/
-
-.nav-after-header>ul>li:last-child:hover ul {
+.nav-after-header > ul > li:last-child:hover ul {
     position: absolute;
     /*top: 70px;*/
     left: -214px;
 }
 
-.nav-after-header>ul>li>ul>li {
+.nav-after-header > ul > li > ul > li {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -196,7 +202,7 @@ ul.head-bottom-menu li:nth-child(2n) {
     padding: 15px 0;
 }
 
-.nav-after-header>ul>li>ul>li:last-child {
+.nav-after-header > ul > li > ul > li:last-child {
     border: none;
 }
 
@@ -209,7 +215,7 @@ ul.head-bottom-menu li:nth-child(2n) {
     width: 66.6666%;
 }
 
-.nav-after-header>ul>li>ul>li h4,
+.nav-after-header > ul > li > ul > li h4,
 .drop-down-item-content h4 {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -232,8 +238,11 @@ ul.head-bottom-menu li:nth-child(2n) {
     font-size: 12px;
     padding: 5px 25px;
 }
-/*----------------------------------------------------------------
--------------------------------STYLE FOR PHOTO-TOP BLOCK----------
+
+/*
+--------------------------------------------------------------
+STYLE FOR PHOTO-TOP BLOCK
+--------------------------------------------------------------
 */
 
 .photo-top-left {
@@ -244,16 +253,16 @@ ul.head-bottom-menu li:nth-child(2n) {
     position: relative;
 }
 
-.photo-top-left > div > div{
+.photo-top-left > div > div {
     position: absolute;
-    left:0;
+    left: 0;
     bottom: 55px;
     background-color: rgb(54, 42, 79);
     opacity: 0.8;
     padding: 5px 17px 0;
 }
 
-.photo-top-left > div > div + div{
+.photo-top-left > div > div + div {
     position: absolute;
     left: 0;
     bottom: 13px;
@@ -263,7 +272,7 @@ ul.head-bottom-menu li:nth-child(2n) {
     padding: 9px 20px 8px 22px;
 }
 
-.photo-top-left > div > div h2{
+.photo-top-left > div > div h2 {
     font-size: 58px;
     font-family: Aparajita, "Aparajita sa", sans-serif;
     color: rgb(239, 89, 102);
@@ -272,7 +281,7 @@ ul.head-bottom-menu li:nth-child(2n) {
     margin: 0;
 }
 
-.photo-top-left > div > div p{
+.photo-top-left > div > div p {
     font-size: 13px;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
@@ -281,7 +290,7 @@ ul.head-bottom-menu li:nth-child(2n) {
     margin-top: -13px;
 }
 
-.photo-top-left > div > div + div p{
+.photo-top-left > div > div + div p {
     font-size: 20px;
     font-family: Aparajita, "Aparajita sa", sans-serif;
     text-transform: uppercase;
@@ -290,7 +299,11 @@ ul.head-bottom-menu li:nth-child(2n) {
     margin: 0;
 }
 
-
+/*
+--------------------------------------------------------------
+STYLE Search block
+--------------------------------------------------------------
+*/
 
 .search-block {
     background: #f0626e;
@@ -300,7 +313,7 @@ ul.head-bottom-menu li:nth-child(2n) {
 
 }
 
-.search-block label{
+.search-block label {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -314,7 +327,13 @@ ul.head-bottom-menu li:nth-child(2n) {
     box-shadow: 3px 3px 5px #bc4a54;
 }
 
-.photo-top-right > div{
+/*
+--------------------------------------------------------------
+Style Photo-top-right block
+--------------------------------------------------------------
+*/
+
+.photo-top-right > div {
     position: relative;
     margin-bottom: 1px;
 }
@@ -347,8 +366,14 @@ ul.head-bottom-menu li:nth-child(2n) {
     line-height: 1.2;
     margin-top: -10px;
 }
-/*Blackout for children's store block*/
-.photo-top-right > div:nth-child(2)::after{
+
+/*
+--------------------------------------------------------------
+Blackout for children's store block
+--------------------------------------------------------------
+*/
+
+.photo-top-right > div:nth-child(2)::after {
     content: '';
     background: #3b4050;
     height: auto;
@@ -361,13 +386,19 @@ ul.head-bottom-menu li:nth-child(2n) {
     visibility: hidden;
 }
 
-.photo-top-right > div:nth-child(2):hover::after{
+.photo-top-right > div:nth-child(2):hover::after {
     visibility: visible;
     cursor: pointer;
     margin-bottom: 4px;
 }
-/*Baby Shop hover in order block*/
-.baby-price-hover{
+
+/*
+--------------------------------------------------------------
+Baby Shop hover in order block
+--------------------------------------------------------------
+*/
+
+.baby-price-hover {
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -377,32 +408,32 @@ ul.head-bottom-menu li:nth-child(2n) {
     z-index: 20;
 }
 
-.photo-top-right div:hover .baby-price-hover{
+.photo-top-right div:hover .baby-price-hover {
     visibility: visible;
     cursor: pointer;
 }
 
-.baby-price-hover > div:first-child{
+.baby-price-hover > div:first-child {
     background: #05aecc;
     padding: 20px 7px 20px 12px;
 }
 
-.baby-price-hover > div:first-child + div{
+.baby-price-hover > div:first-child + div {
     background: #00a1be;
     padding: 15px;
 }
 
-.baby-price-hover > div:first-child + div + div{
+.baby-price-hover > div:first-child + div + div {
     background: #f0626e;
     padding: 16px 15px 15px;
 }
 
-.baby-price-hover > div:last-child{
+.baby-price-hover > div:last-child {
     background: #323232;
     padding: 15px;
 }
 
-.baby-price-hover h4{
+.baby-price-hover h4 {
     color: #fff;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
@@ -410,12 +441,17 @@ ul.head-bottom-menu li:nth-child(2n) {
     margin: 0;
 }
 
-.baby-price-hover span{
+.baby-price-hover span {
     color: #fff;
     font-size: 24px;
     margin: 0;
 }
 
+/*
+--------------------------------------------------------------
+Next
+--------------------------------------------------------------
+*/
 
 
 
