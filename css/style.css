@@ -268,7 +268,7 @@ STYLE FOR PHOTO-TOP BLOCK
     bottom: 55px;
     background-color: rgb(54, 42, 79);
     opacity: 0.8;
-    padding: 5px 17px 0;
+    padding: 5px 23px 0;
 }
 
 .photo-top-left > div > div + div {
@@ -284,6 +284,8 @@ STYLE FOR PHOTO-TOP BLOCK
 .photo-top-left > div > div h2 {
     font-size: 58px;
     font-family: 'Aparajita', sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: rgb(239, 89, 102);
     line-height: 1.2;
     text-transform: uppercase;
@@ -292,7 +294,8 @@ STYLE FOR PHOTO-TOP BLOCK
 
 .photo-top-left > div > div p {
     font-size: 13px;
-    font-family: "Aparajita";
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     line-height: 1.2;
@@ -301,7 +304,9 @@ STYLE FOR PHOTO-TOP BLOCK
 
 .photo-top-left > div > div + div p {
     font-size: 20px;
-    font-family: "Aparajita";
+    font-family: 'Aparajita', sans-serif;
+    font-weight: 700;
+    font-style: normal;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     line-height: 1.2;
@@ -353,14 +358,15 @@ Style Photo-top-right block
     left: 0;
     width: 267px;
     height: 80px;
-    padding: 8px 8px 8px 15px;
+    padding: 8px 8px 8px 25px;
     background-color: rgb(54, 42, 79);
     opacity: 0.8;
 }
 
 .photo-top-right h2 {
     font-size: 35px;
-    font-family: Aparajita, "Aparajita sa", sans-serif;
+    font-family: 'Aparajita', sans-serif;
+    font-weight: 700;
     color: rgb(239, 89, 102);
     line-height: 1.2;
     text-transform: uppercase;
@@ -457,9 +463,11 @@ Baby Shop hover in order block
 
 /*
 --------------------------------------------------------------
-Next
+Style for Slider First
 --------------------------------------------------------------
 */
+
+
 
 
 
