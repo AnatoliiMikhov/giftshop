@@ -257,7 +257,7 @@ Style last element item menu block2
 STYLE FOR PHOTO-TOP BLOCK
 --------------------------------------------------------------
 */
-.photo-top{
+.photo-top {
     margin-bottom: 103px;
 }
 
@@ -302,7 +302,7 @@ STYLE FOR PHOTO-TOP BLOCK
 .photo-top-left > div > div p {
     font-size: 13px;
     font-family: 'Lato', sans-serif;
-    font-weight:700;
+    font-weight: 700;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     line-height: 1.2;
@@ -474,18 +474,18 @@ Style for Slider First
 --------------------------------------------------------------
 */
 
-
 .new-product {
     margin-bottom: 103px;
 
 }
+
 .slider-first {
     padding-top: 25px;
     border-top: 1px solid #b9b9b9;
     position: relative;
 }
 
-.slider-first::before{
+.slider-first::before {
     content: 'New Products';
     position: absolute;
     top: -48px;
@@ -502,12 +502,12 @@ Style for Slider First
     justify-content: space-between;
 }
 
-.gallery-images-1 > div{
+.gallery-images-1 > div {
     position: relative;
 }
 
 /*Hover style shadow*/
-.gallery-images-1 > div:nth-child(2)::after{
+.gallery-images-1 > div:nth-child(2)::after {
     content: '';
     background: rgba(51, 45, 46, 0.87);
     height: auto;
@@ -519,7 +519,7 @@ Style for Slider First
     visibility: hidden;
 }
 
-.gallery-images-1 > div:nth-child(2):hover::after{
+.gallery-images-1 > div:nth-child(2):hover::after {
     visibility: visible;
     cursor: pointer;
     margin-bottom: 4px;
@@ -535,8 +535,8 @@ Style for baby shop in gallery  slider block
     display: flex;
     justify-content: center;
     position: absolute;
-    right:0;
-    left:0;
+    right: 0;
+    left: 0;
     bottom: 70px;
     visibility: hidden;
     z-index: 20;
@@ -546,7 +546,6 @@ Style for baby shop in gallery  slider block
     visibility: visible;
     cursor: pointer;
 }
-
 
 .baby-shop-hover-2 > div:first-child {
     background: #05aecc;
@@ -581,6 +580,7 @@ Style for baby shop in gallery  slider block
     font-size: 24px;
     margin: 0;
 }
+
 /*
 --------------------------------------------------------------
 Style for slider button block
@@ -598,10 +598,11 @@ Style for slider button block
     margin-right: 1px;
 }
 
-.slider1-button-block > div{
+.slider1-button-block > div {
     background: #3c3c3c;
     padding: 25px 26px;
 }
+
 /*
 --------------------------------------------------------------
 Style for Featured Product block
@@ -620,7 +621,7 @@ Style for Featured Product block
     position: relative;
 }
 
-.slider-second::before{
+.slider-second::before {
     content: 'Featured Products';
     position: absolute;
     top: -48px;
@@ -632,22 +633,22 @@ Style for Featured Product block
     padding: 0 10px 13px 0;
 }
 
-.slider-second > div{
+.slider-second > div {
     border: 1px solid #dddddd;
 }
 
-.slider-second > div > div:first-of-type{
+.slider-second > div > div:first-of-type {
     padding: 8px 0 11px 11px;
 }
 
-.slider-second h4{
+.slider-second h4 {
     font-size: 18px;
     font-family: 'Lato', sans-serif;
     font-weight: normal;
     margin: 0;
 }
 
-.slider-second p{
+.slider-second p {
     font-size: 13px;
     font-family: 'Lato', sans-serif;
     font-weight: normal;
@@ -656,7 +657,7 @@ Style for Featured Product block
 }
 
 /*Featured footer*/
-.feature-footer{
+.feature-footer {
     border-top: 1px solid #dddddd;
     display: flex;
     justify-content: space-between;
@@ -671,52 +672,31 @@ Style for Featured Product block
     border-right: 1px solid #dddddd;
 }
 
-.feature-footer > div:last-child{
+.feature-footer > div:last-child {
     width: 100%;
     background: #f0626e;
     border: none;
 }
+
 /*Price div*/
 /*symbol dollar*/
 .feature-footer > div span:first-child,
-.baby-shop-hover-2 > div span:first-child{
+.baby-shop-hover-2 > div span:first-child {
     font-size: 16px;
     color: #fff;
 }
 
-.feature-footer > div:last-child{
+.feature-footer > div:last-child {
     color: #fff;
 }
 
-.feature-footer > div:last-child span:last-child{
+.feature-footer > div:last-child span:last-child {
     font-size: 24px;
     font-family: 'Lato', sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
+--------------------------------------------------------------
+Style for "Who We Are" block
+--------------------------------------------------------------
+*/
