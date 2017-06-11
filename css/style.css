@@ -33,6 +33,10 @@ a {
     text-decoration: none;
 }
 
+figure {
+    margin: 0;
+}
+
 /*
 --------------------------------------------------------------
 STYLE fo HEADER
@@ -473,6 +477,7 @@ Style for Slider First
 
 .new-product {
     margin-bottom: 103px;
+
 }
 .slider-first {
     padding-top: 25px;
@@ -480,16 +485,16 @@ Style for Slider First
     position: relative;
 }
 
-.slider-first::after{
+.slider-first::before{
     content: 'New Products';
     position: absolute;
     top: -48px;
+    left: 28px;
     font-size: 30px;
     font-family: 'Lato', sans-serif;
     color: #00a1be;
     border-bottom: 1px solid #f0626e;
     padding: 0 10px 13px 0;
-    margin-left: 28px;
 }
 
 .gallery-images-1 {
@@ -604,7 +609,7 @@ Style for Featured Product block
 */
 .featured {
     margin-bottom: 75px;
-    position: relative;
+
 }
 
 .slider-second {
@@ -612,4 +617,106 @@ Style for Featured Product block
     justify-content: space-between;
     padding-top: 25px;
     border-top: 1px solid #b9b9b9;
+    position: relative;
 }
+
+.slider-second::before{
+    content: 'Featured Products';
+    position: absolute;
+    top: -48px;
+    left: 28px;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: #00a1be;
+    border-bottom: 1px solid #f0626e;
+    padding: 0 10px 13px 0;
+}
+
+.slider-second > div{
+    border: 1px solid #dddddd;
+}
+
+.slider-second > div > div:first-of-type{
+    padding: 8px 0 11px 11px;
+}
+
+.slider-second h4{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+.slider-second p{
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    color: #f0626e;
+    margin: 0;
+}
+
+/*Featured footer*/
+.feature-footer{
+    border-top: 1px solid #dddddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-footer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 12px 19px;
+    border-right: 1px solid #dddddd;
+}
+
+.feature-footer > div:last-child{
+    width: 100%;
+    background: #f0626e;
+    border: none;
+}
+/*Price div*/
+/*symbol dollar*/
+.feature-footer > div span:first-child,
+.baby-shop-hover-2 > div span:first-child{
+    font-size: 16px;
+    color: #fff;
+}
+
+.feature-footer > div:last-child{
+    color: #fff;
+}
+
+.feature-footer > div:last-child span:last-child{
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
