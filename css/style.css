@@ -702,6 +702,77 @@ Style for "Who We Are" block
 --------------------------------------------------------------
 */
 
+.who-we-are{
+    border-top: 1px solid #dddddd;
+}
+
+.who-we-are::before {
+    content: 'Who We Are';
+    position: absolute;
+    top: -48px;
+    left: 28px;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: #00a1be;
+    border-bottom: 1px solid #f0626e;
+    padding: 0 10px 13px 0;
+}
+.who-we-are > p{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 26px;
+    color: #464646;
+    padding: 35px 27px 42px 30px;
+    margin: 0;
+}
+
+.who-we-are a {
+    display: block;
+}
+
+.who-we-are > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.who-we-are > div > div {
+    margin-right: 28px;
+}
+
+.who-we-are > div > div:last-child{
+    margin-right: 0;
+}
+
+.who-we-are > div > div a{
+    padding: 28px 40px 17px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.who-we-are > div > div  div {
+    align-self: center;
+    align-items: center;
+}
+
+.who-we-are > div > div:first-child {
+    background: #434343;
+}
+
+.who-we-are > div > div:first-child + div {
+    background: #05aecc;
+}
+
+.who-we-are > div > div:first-child + div + div {
+    background: #f0626e;
+}
+
+.who-we-are div p {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    margin: 0 0 20px 35px;
+    padding: 0;
+}
 
 
 
