@@ -814,3 +814,30 @@ div.we-are-bottom-block {
     color: #fff;
     padding: 15px 240px;
 }
+/*
+--------------------------------------------------------------
+Style for Footer block
+--------------------------------------------------------------
+*/
+
+footer h4 {
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.footer-layout {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    padding-bottom: 58px;
+}
+
+.footer-layout li a {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #717171;
+    line-height: 28px;
+}
