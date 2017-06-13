@@ -603,6 +603,10 @@ Style for slider button block
     padding: 25px 26px;
 }
 
+.slider1-button-block > div:hover {
+    background: #05aecc;
+}
+
 /*
 --------------------------------------------------------------
 Style for Featured Product block
@@ -692,10 +696,30 @@ Style for Featured Product block
     font-family: 'Lato', sans-serif;
 }
 
-.feature-footer a{
+.feature-footer a {
     color: #fff;
 }
 
+/*Slider-2 Style*/
+.slider2-button-block {
+    display: flex;
+    position: absolute;
+    top: -78px;
+    right: 0;
+}
+
+.swiper-button-prev {
+    margin-right: 1px;
+}
+
+.slider2-button-block > div {
+    background: #3c3c3c;
+    padding: 25px 26px;
+}
+
+.slider2-button-block > div:hover{
+    background: #f0626e;
+}
 /*
 --------------------------------------------------------------
 Style for "Who We Are" block
@@ -704,6 +728,8 @@ Style for "Who We Are" block
 
 .who-we-are{
     border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 29px;
 }
 
 .who-we-are::before {
@@ -733,6 +759,7 @@ Style for "Who We Are" block
 .who-we-are > div {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .who-we-are > div > div {
@@ -774,15 +801,16 @@ Style for "Who We Are" block
     padding: 0;
 }
 
+div.we-are-bottom-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.we-are-bottom-block a{
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    background: #05aecc;
+    color: #fff;
+    padding: 15px 240px;
+}
