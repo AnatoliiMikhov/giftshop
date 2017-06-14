@@ -904,6 +904,12 @@ footer h4 {
     background: #45b0e3;
 }
 
+/*Style Social Site Icons*/
+
+.demo-icon {
+    color: #fff;
+    font-size: 30px;
+}
 /*Style Flickr button*/
 .footer-layout div:last-child ul li:first-child + li + li + li a {
     border: 1px solid #e1e1e1;
