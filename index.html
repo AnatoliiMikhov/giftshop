@@ -367,54 +367,49 @@
 <!--Begins code block swiper-container-->
 
 
-
-
-
 <section class="new-product">
     <div class="workspace">
         <div class="newProd-top"><h2>New product</h2></div>
-<!-- Slider main container -->
-<div class="swiper-container">
+        <!-- Slider main container -->
+        <div class="swiper-container">
 
 
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide"><img src="image/new-product/girl-with-bug.png" alt="girl-widt-bug"></div>
-        <div class="swiper-slide"><div><img src="image/new-product/bijutere.png" alt="bijutere">
-            <div class="baby-shop-hover-2">
-                <div><h4>Baby Shop</h4></div>
-                <div><img src="image/mini_icons/mini_box.png" alt="mini-box"></div>
-                <div><img src="image/mini_icons/mini_basket.png" alt="mini_basket.png"></div>
-                <div><span>&#36;</span><span> 99.<sup>00</sup></span></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="image/new-product/girl-with-bug.png" alt="girl-widt-bug"></div>
+                <div class="swiper-slide">
+                    <div><img src="image/new-product/bijutere.png" alt="bijutere">
+                        <div class="baby-shop-hover-2">
+                            <div><h4>Baby Shop</h4></div>
+                            <div><img src="image/mini_icons/mini_box.png" alt="mini-box"></div>
+                            <div><img src="image/mini_icons/mini_basket.png" alt="mini_basket.png"></div>
+                            <div><span>&#36;</span><span> 99.<sup>00</sup></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="image/new-product/clock-hand.png" alt="clock-hand"></div>
+
+                <div class="swiper-slide"><img src="image/new-product/girl-with-bug.png" alt="girl-widt-bug"></div>
+                <div class="swiper-slide">
+                    <div><img src="image/new-product/bijutere.png" alt="bijutere">
+                        <div class="baby-shop-hover-2">
+                            <div><h4>Baby Shop</h4></div>
+                            <div><img src="image/mini_icons/mini_box.png" alt="mini-box"></div>
+                            <div><img src="image/mini_icons/mini_basket.png" alt="mini_basket.png"></div>
+                            <div><span>&#36;</span><span> 99.<sup>00</sup></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="image/new-product/clock-hand.png" alt="clock-hand"></div>
             </div>
-        </div></div>
-        <div class="swiper-slide"><img src="image/new-product/clock-hand.png" alt="clock-hand"></div>
+            <!-- If we need navigation buttons -->
 
-        <div class="swiper-slide"><img src="image/new-product/girl-with-bug.png" alt="girl-widt-bug"></div>
-        <div class="swiper-slide"><div><img src="image/new-product/bijutere.png" alt="bijutere">
-            <div class="baby-shop-hover-2">
-                <div><h4>Baby Shop</h4></div>
-                <div><img src="image/mini_icons/mini_box.png" alt="mini-box"></div>
-                <div><img src="image/mini_icons/mini_basket.png" alt="mini_basket.png"></div>
-                <div><span>&#36;</span><span> 99.<sup>00</sup></span></div>
-            </div>
-        </div></div>
-        <div class="swiper-slide"><img src="image/new-product/clock-hand.png" alt="clock-hand"></div>
-    </div>
-    <!-- If we need navigation buttons -->
-
-</div>
+        </div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
     </div>
 </section>
-
-
-
-
-
-
 
 
 <!--My original code-->
@@ -443,13 +438,6 @@
     </div>
 </section>
 -->
-
-
-
-
-
-
-
 
 
 <section class="featured">
@@ -554,10 +542,6 @@
             </div>
 
 
-        </div>
-        <div class="slider2-button-block">
-            <div class="swiper-button-prev"><i class="demo-icon  icon-left-open-big"></i></div>
-            <div class="swiper-button-next"><i class="demo-icon  icon-right-open-big"></i></div>
         </div>
     </div>
 </section>
@@ -666,13 +650,16 @@
 <script src="js/swiper.min.js"></script>
 
 
-<!--<script>
-    var mySwiper = new Swiper ('.swiper-container', {
+<script>
+    var mySwiper;
+    mySwiper = new Swiper('.swiper-container', {
         loop: true,
         nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev'
-    })
-</script>-->
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 'auto',
+        loopedSlides: 3
+    });
+</script>
 
 </body>
 
