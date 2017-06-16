@@ -499,11 +499,44 @@ Style for Slider First
     position: relative;
 }
 
+.slider-button {
+    position: absolute;
+    top: -81px;
+    right: 80px;
+}
 
+.slider-button > div {
+    background: #333333;
+}
+
+.slider-button > div:hover{
+    background: #05aecc;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 41px 35px;
+    margin: 0;
+}
+
+.swiper-button-next {
+    margin-right: -19px;
+}
 
 .swiper-wrapper{
     display: flex;
     justify-content: space-between;
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    background-image: none;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    background-image: none;
 }
 
 .new-product .swiper-wrapper> div {
@@ -525,11 +558,11 @@ Style for Slider First
     visibility: hidden;
 }
 
-.new-product .swiper-wrapper> div:nth-child(2):hover::after {
-    visibility: visible;
-    cursor: pointer;
-    margin-bottom: 4px;
-}
+/*
+--------------------------------------------------------------
+Style for slider button block
+--------------------------------------------------------------
+*/
 
 /*
 --------------------------------------------------------------
@@ -587,31 +620,8 @@ Style for baby shop in gallery  slider block
     margin: 0;
 }
 
-/*
---------------------------------------------------------------
-Style for slider button block
---------------------------------------------------------------
-*/
 
-.slider-button {
-    display: flex;
-    position: absolute;
-    top: -80px;
-    right: 0;
-}
 
-.swiper-button-prev {
-    margin-right: 1px;
-}
-
-.slider-button > div {
-    background: #3c3c3c;
-    padding: 23px 14px;
-}
-
-.slider-button > div:hover {
-    background: #05aecc;
-}
 
 /*
 --------------------------------------------------------------
@@ -969,3 +979,4 @@ footer h4 {
 .footer-copyright div:last-child span {
     color: #f27781;
 }
+
