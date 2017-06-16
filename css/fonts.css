@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+/*font-family: 'Lato', sans-serif;*/
+
+@font-face {
+    font-family: 'Aparajita';
+    src: url('../fonts/aparaj_regular/aparajita.eot');
+    src: url('../fonts/aparaj_regular/aparajita.eot') format('embedded-opentype'),
+    url('../fonts/aparaj_regular/aparajita.woff2') format('woff2'),
+    url('../fonts/aparaj_regular/aparajita.woff') format('woff'),
+    url('../fonts/aparaj_regular/aparajita.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aparajita', sans-serif;
+    src: url('../fonts/aparaj_bold/Aparajita Bold.eot');
+    src: url('../fonts/aparaj_bold/Aparajita Bold.eot') format('embedded-opentype'),
+    url('../fonts/aparaj_bold/Aparajita Bold.woff2') format('woff2'),
+    url('../fonts/aparaj_bold/Aparajita Bold.woff') format('woff'),
+    url('../fonts/aparaj_bold/Aparajita Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
