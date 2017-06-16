@@ -493,7 +493,7 @@ Style for Slider First
     z-index: 10;
 }
 
-.slider-first {
+.swiper-container {
     padding-top: 25px;
     border-top: 1px solid #b9b9b9;
     position: relative;
@@ -501,17 +501,19 @@ Style for Slider First
 
 
 
-.gallery-images-1 {
+.swiper-wrapper{
     display: flex;
     justify-content: space-between;
 }
 
-.gallery-images-1 > div {
+.new-product .swiper-wrapper> div {
     position: relative;
+    margin-right: 30px;
+    width: auto;
 }
 
 /*Hover style shadow*/
-.gallery-images-1 > div:nth-child(2)::after {
+.new-product .swiper-wrapper> div:nth-child(2)::after {
     content: '';
     background: rgba(51, 45, 46, 0.87);
     height: auto;
@@ -523,7 +525,7 @@ Style for Slider First
     visibility: hidden;
 }
 
-.gallery-images-1 > div:nth-child(2):hover::after {
+.new-product .swiper-wrapper> div:nth-child(2):hover::after {
     visibility: visible;
     cursor: pointer;
     margin-bottom: 4px;
@@ -546,7 +548,7 @@ Style for baby shop in gallery  slider block
     z-index: 20;
 }
 
-.gallery-images-1 div:hover .baby-shop-hover-2 {
+.swiper-wrapper div:hover .baby-shop-hover-2 {
     visibility: visible;
     cursor: pointer;
 }
@@ -591,7 +593,7 @@ Style for slider button block
 --------------------------------------------------------------
 */
 
-.slider1-button-block {
+.slider-button {
     display: flex;
     position: absolute;
     top: -80px;
@@ -602,12 +604,12 @@ Style for slider button block
     margin-right: 1px;
 }
 
-.slider1-button-block > div {
+.slider-button > div {
     background: #3c3c3c;
     padding: 23px 14px;
 }
 
-.slider1-button-block > div:hover {
+.slider-button > div:hover {
     background: #05aecc;
 }
 
