@@ -155,6 +155,8 @@ STYLE fo NAV after HEADER
 .nav-after-header .workspace li > a {
     color: #fff;
     padding: 23px 25px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
 }
 
 .nav-after-header .workspace > ul > li > a:hover {
