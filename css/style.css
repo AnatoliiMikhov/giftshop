@@ -372,6 +372,24 @@ Style Photo-top-right block
     opacity: 0.8;
 }
 
+.photo-top-right > div:last-child > div{
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    background: rgb(54, 42, 79);
+    opacity: 0.9;
+    transform: rotate(-90deg);
+}
+
+.photo-top-right > div:last-child > div > p {
+    font-size: 64px;
+    font-family: 'Aparajita', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 25px 0 25px 25px;
+    margin: 0;
+}
+
 .photo-top-right h2 {
     font-size: 35px;
     font-family: 'Aparajita', sans-serif;
@@ -382,7 +400,7 @@ Style Photo-top-right block
     margin: 0;
 }
 
-.photo-top-right p {
+.photo-top-right > div > div:first-child p {
     font-size: 12px;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
@@ -488,7 +506,7 @@ Style for Slider First
     left: 28px;
     font-size: 30px;
     font-family: 'Lato', sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     color: #00a1be;
     border-bottom: 1px solid #f0626e;
     padding: 0 10px 13px 0;
@@ -657,16 +675,53 @@ Style for Featured Product block
 }
 
 .featured .slider-button > div:hover {
-    background: #be311e;
+    background: #f0626e;
 }
 
 
 
-.featured .swiper-container > div {
+.featured .swiper-slide {
     border: 1px solid #dddddd;
 }
 
-.featured .swiper-container > div > div:first-of-type {
+.swiper-slide {
+    width: auto;
+}
+
+.featured .swiper-slide-active figure::before {
+    content: '20% off';
+    background: #f0626e;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 12px;
+    left: 0;
+    padding:12px 9px;
+}
+
+.featured .swiper-slide-next + div figure::after {
+    content: 'New';
+    background: #05aecc;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 12px;
+    left: 0;
+    padding:12px 25px;
+}
+
+.featured .swiper-slide-next + div p {
+    color: #05aecc;
+}
+
+.featured .swiper-slide-next + div .feature-footer > div:last-child {
+    background: #05aecc;
+}
+
+.featured .swiper-slide >  div:first-of-type {
     padding: 8px 0 11px 11px;
 }
 
