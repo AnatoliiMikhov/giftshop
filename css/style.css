@@ -648,7 +648,7 @@ Style for Featured Product block
     z-index: 10;
 }
 
-.slider-second {
+.featured .swiper-container {
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
@@ -656,24 +656,28 @@ Style for Featured Product block
     position: relative;
 }
 
+.featured .slider-button > div:hover {
+    background: #be311e;
+}
 
 
-.slider-second > div {
+
+.featured .swiper-container > div {
     border: 1px solid #dddddd;
 }
 
-.slider-second > div > div:first-of-type {
+.featured .swiper-container > div > div:first-of-type {
     padding: 8px 0 11px 11px;
 }
 
-.slider-second h4 {
+.featured .swiper-container h4 {
     font-size: 18px;
     font-family: 'Lato', sans-serif;
     font-weight: normal;
     margin: 0;
 }
 
-.slider-second p {
+.featured .swiper-container p {
     font-size: 13px;
     font-family: 'Lato', sans-serif;
     font-weight: normal;
