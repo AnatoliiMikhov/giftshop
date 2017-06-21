@@ -400,7 +400,7 @@ Style Photo-top-right block
     margin: 0;
 }
 
-.photo-top-right > div > div:first-child p {
+.photo-top-right > div > div:first-of-type p {
     font-size: 12px;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
