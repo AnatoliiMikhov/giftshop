@@ -374,20 +374,12 @@ Style Photo-top-right block
 
 .photo-top-right > div:last-child > div{
     position: absolute;
-    bottom: 4px;
-    right: 0;
+    bottom: 158px;
+    right: -154px;
+    padding: 12px 0 0 0;
     background: rgb(54, 42, 79);
     opacity: 0.9;
     transform: rotate(-90deg);
-}
-
-.photo-top-right > div:last-child > div > p {
-    font-size: 64px;
-    font-family: 'Aparajita', sans-serif;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    padding: 25px 0 25px 25px;
-    margin: 0;
 }
 
 .photo-top-right h2 {
@@ -400,6 +392,20 @@ Style Photo-top-right block
     margin: 0;
 }
 
+.jewelry-heading h2 {
+    font-size: 64px;
+    font-family: 'Aparajita', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    margin-right: 136px;
+    margin-left: 25px;
+}
+
+
+
 .photo-top-right > div > div:first-of-type p {
     font-size: 12px;
     font-family: 'Lato', sans-serif;
@@ -409,6 +415,32 @@ Style Photo-top-right block
     margin-top: -10px;
 }
 
+/*Label for block Jewelry*/
+.jewelry-heading > div {
+    position: absolute;
+    background: #ee6470;
+    width: 100px;
+    height: 100px;
+    transform: rotate(90deg);
+    right: 20px;
+    top: -12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jewelry-heading > div > div {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.jewelry-heading > div > div i {
+    color: #f06470;
+}
 /*
 --------------------------------------------------------------
 Blackout for children's store block
