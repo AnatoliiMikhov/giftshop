@@ -395,6 +395,7 @@ Style Photo-top-right block
 .jewelry-heading h2 {
     font-size: 64px;
     font-family: 'Aparajita', sans-serif;
+	font-weight: normal;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     margin: 0;
@@ -429,13 +430,25 @@ Style Photo-top-right block
     align-items: center;
 }
 
-.jewelry-heading > div > div {
+.jewelry-heading > div > div:first-child {
     width: 55px;
     height: 55px;
     border-radius: 100%;
     background: #fff;
     text-align: center;
     padding-top: 10px;
+}
+
+.triangle{
+	position: absolute;
+	transform: rotate(-45deg);
+    width: 0;
+    height: 0;
+    left: 4px;
+    bottom: -11px;
+    border-top: 10px solid transparent;
+    border-left: 9px solid #c6535d;
+    border-bottom: 8px solid transparent;
 }
 
 .jewelry-heading > div > div i {
