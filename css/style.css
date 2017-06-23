@@ -290,6 +290,72 @@ STYLE FOR PHOTO-TOP BLOCK
     padding: 9px 20px 8px 22px;
 }
 
+.photo-top-left .order-block {
+    position: absolute;
+    right: 0;
+    left:auto;
+    bottom: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    /*text-align: right;*/
+}
+
+/*
+.order-block div {
+    display: flex;
+}
+*/
+
+.order-block div:first-child {
+    padding: 12px 46px;
+}
+
+.order-block div:nth-child(2) {
+    background: #00a1be;
+    padding: 14px 14px 15px 14px;
+    position: relative;
+
+
+}
+
+.order-block div:nth-child(2)::before {
+    content: 'add to card';
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    position: absolute;
+    background: #fff;
+    top: -48px;
+    left: 22px;
+    padding: 10px 17px;
+    border: 1px solid #f0626e;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.order-block div:nth-child(3) {
+    background: #f0626e;
+    padding: 18px 14px 12px 14px;
+}
+
+.order-block div:last-child {
+    background: #100e0e;
+    padding: 15px 18px 16px 22px;
+}
+
+.order-block h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-weight:normal;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    padding: 0;
+}
+
 .photo-top-left > div > div h2 {
     font-size: 58px;
     font-family: 'Aparajita', sans-serif;
@@ -321,6 +387,8 @@ STYLE FOR PHOTO-TOP BLOCK
     line-height: 1.2;
     margin: 0;
 }
+
+
 
 /*
 --------------------------------------------------------------
@@ -526,7 +594,7 @@ Baby Shop hover in order block
     font-weight: 400;
     margin: 0;
 }
-
+.order-block span:last-child,
 .baby-price-hover span {
     color: #fff;
     font-size: 24px;
@@ -809,6 +877,7 @@ Style for Featured Product block
 
 /*Price div*/
 /*symbol dollar*/
+.order-block > div span:first-child,
 .baby-price-hover > div span:first-child,
 .feature-footer > div span:first-child,
 .baby-shop-hover-2 > div span:first-child {
