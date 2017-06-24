@@ -356,6 +356,11 @@ STYLE FOR PHOTO-TOP BLOCK
     border-right: 12px solid #f0626e;
     visibility: hidden;
 }
+.order-block > div:nth-child(3):hover::before,
+.order-block > div:nth-child(3):hover::after {
+    visibility: visible;
+    cursor: pointer;
+}
 
 .order-block > div:last-child {
     background: #100e0e;
