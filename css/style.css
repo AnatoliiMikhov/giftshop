@@ -327,7 +327,7 @@ STYLE FOR PHOTO-TOP BLOCK
     background: #f0626e;
     padding: 18px 14px 12px 14px;
 }
-
+/*Popup block for block Card*/
 .order-block > div:nth-child(3)::before {
     content: 'add to card';
     font-size: 16px;
@@ -361,6 +361,7 @@ STYLE FOR PHOTO-TOP BLOCK
     visibility: visible;
     cursor: pointer;
 }
+/*Stop style for Popup block for block Card*/
 
 .order-block > div:last-child {
     background: #100e0e;
