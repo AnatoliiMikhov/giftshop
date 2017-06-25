@@ -37,6 +37,10 @@ figure {
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+}
+
 /*
 --------------------------------------------------------------
 STYLE fo HEADER
@@ -131,7 +135,7 @@ STYLE fo NAV after HEADER
 --------------------------------------------------------------
 */
 
-.nav-after-header .workspace {
+.nav-after-header {
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -466,7 +470,7 @@ STYLE Search block
 }
 
 .search-block input {
-    width: 485px;
+    max-width: 485px;
     height: 69px;
     text-align: center;
     border: none;
@@ -1215,7 +1219,24 @@ ADAPTIVE CODE
 ----------------------------
 */
 
+
 @media (max-width: 1024px) {
+    .header-left {
+        width: 20%;
+    }
+    .header-right{
+        width: 78%;
+    }
+    .nav-after-header .workspace > ul {
+        padding: 0 36px;
+        margin: 0 19px;
+    }
+    .head-bottom-menu a {
+        padding: 24px;
+    }
+    .logo {
+        margin-left: 20px;
+    }
 
 }
 
