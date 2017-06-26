@@ -494,8 +494,7 @@ Style Photo-top-right block
     width: 267px;
     height: 80px;
     padding: 8px 8px 8px 25px;
-    background-color: rgb(54, 42, 79);
-    opacity: 0.8;
+    background-color: rgba(54, 42, 79, 0.8);
 }
 
 .photo-top-right > div:last-child > div {
@@ -503,8 +502,7 @@ Style Photo-top-right block
     bottom: 158px;
     right: -154px;
     padding: 12px 0 0 0;
-    background: rgb(54, 42, 79);
-    opacity: 0.9;
+    background: rgba(54, 42, 79, 0.9);
     transform: rotate(-90deg);
 }
 
@@ -1222,7 +1220,7 @@ ADAPTIVE CODE
     }
 
     .nav-after-header .workspace > ul {
-        padding: 0 36px;
+        padding: 0 26px;
         margin: 0 19px;
     }
 
@@ -1235,6 +1233,9 @@ ADAPTIVE CODE
     }
     .search-block {
         padding: 40px 42px 40px 50px;
+    }
+    .featured img {
+        width:100%;
     }
 }
 

@@ -712,7 +712,7 @@
         nextButton: '.new-product .swiper-button-next',
         prevButton: '.new-product .swiper-button-prev',
         slidesPerView: 'auto',
-        loopedSlides: 3
+        loopedSlides: 3,
     });
 
     var mySwiper2;
@@ -722,7 +722,14 @@
         prevButton: '.featured .swiper-button-prev',
         slidesPerView: 'auto',
         loopedSlides: 4,
-        spaceBetween: 30
+        spaceBetween: 30,
+
+        breakpoints: {
+            1024: {
+                spaceBetween: 50,
+                slidesPerView: 3
+            }
+        }
     });
 </script>
 </body>
