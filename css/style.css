@@ -297,7 +297,7 @@ STYLE FOR PHOTO-TOP BLOCK
 .photo-top-left .order-block {
     position: absolute;
     right: 0;
-    left:auto;
+    left: auto;
     bottom: 4px;
     display: flex;
     justify-content: center;
@@ -351,18 +351,19 @@ STYLE FOR PHOTO-TOP BLOCK
     border-right: 12px solid #00a1be;
     visibility: hidden;
 }
+
 .order-block > div:nth-child(2):hover::before,
 .order-block > div:nth-child(2):hover::after {
     visibility: visible;
     cursor: pointer;
 }
 
-
 .order-block > div:nth-child(3) {
     position: relative;
     background: #f0626e;
     padding: 18px 14px 12px 14px;
 }
+
 /*Popup block for block Card*/
 .order-block > div:nth-child(3)::before {
     content: 'add to card';
@@ -392,11 +393,13 @@ STYLE FOR PHOTO-TOP BLOCK
     border-right: 12px solid #f0626e;
     visibility: hidden;
 }
+
 .order-block > div:nth-child(3):hover::before,
 .order-block > div:nth-child(3):hover::after {
     visibility: visible;
     cursor: pointer;
 }
+
 /*Stop style for Popup block for block Card*/
 
 .order-block > div:last-child {
@@ -409,7 +412,7 @@ STYLE FOR PHOTO-TOP BLOCK
     font-size: 30px;
     font-family: 'Lato', sans-serif;
     color: #fff;
-    font-weight:normal;
+    font-weight: normal;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
     padding: 0;
@@ -447,8 +450,6 @@ STYLE FOR PHOTO-TOP BLOCK
     margin: 0;
 }
 
-
-
 /*
 --------------------------------------------------------------
 STYLE Search block
@@ -459,8 +460,6 @@ STYLE Search block
     background: #f0626e;
     padding: 50px 50px 50px 55px;
     margin-bottom: 4px;
-    height: 171px;
-
 }
 
 .search-block label {
@@ -470,9 +469,10 @@ STYLE Search block
 }
 
 .search-block input {
-    max-width: 485px;
+    flex-basis: 87%;
     height: 69px;
     text-align: center;
+    outline: none;
     border: none;
     box-shadow: 3px 3px 5px #bc4a54;
 }
@@ -485,7 +485,6 @@ Style Photo-top-right block
 
 .photo-top-right > div {
     position: relative;
-    margin-bottom: 1px;
 }
 
 .photo-top-right > div:first-child > div {
@@ -499,7 +498,7 @@ Style Photo-top-right block
     opacity: 0.8;
 }
 
-.photo-top-right > div:last-child > div{
+.photo-top-right > div:last-child > div {
     position: absolute;
     bottom: 158px;
     right: -154px;
@@ -522,15 +521,13 @@ Style Photo-top-right block
 .jewelry-heading h2 {
     font-size: 64px;
     font-family: 'Aparajita', sans-serif;
-	font-weight: normal;
+    font-weight: normal;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
     margin: 0 136px 0 25px;
 }
-
-
 
 .photo-top-right > div > div:first-of-type p {
     font-size: 12px;
@@ -564,9 +561,9 @@ Style Photo-top-right block
     padding-top: 10px;
 }
 
-.triangle{
-	position: absolute;
-	transform: rotate(-45deg);
+.triangle {
+    position: absolute;
+    transform: rotate(-45deg);
     width: 0;
     height: 0;
     left: 4px;
@@ -579,6 +576,7 @@ Style Photo-top-right block
 .jewelry-heading > div > div i {
     color: #f06470;
 }
+
 /*
 --------------------------------------------------------------
 Blackout for children's store block
@@ -670,8 +668,7 @@ Style for Slider First
 
 }
 
-
-.new-product .workspace .newProd-top h2{
+.new-product .workspace .newProd-top h2 {
     position: absolute;
     top: -72px;
     left: 28px;
@@ -700,7 +697,7 @@ Style for Slider First
     background: #333333;
 }
 
-.slider-button > div:hover{
+.slider-button > div:hover {
     background: #05aecc;
 }
 
@@ -717,7 +714,7 @@ Style for Slider First
     margin-right: -19px;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
     display: flex;
     justify-content: space-between;
 }
@@ -730,14 +727,14 @@ Style for Slider First
     background-image: none;
 }
 
-.new-product .swiper-wrapper> div {
+.new-product .swiper-wrapper > div {
     position: relative;
     margin-right: 30px;
     width: auto;
 }
 
 /*Hover style shadow*/
-.new-product .swiper-wrapper> div:nth-child(2)::after {
+.new-product .swiper-slide-next::after {
     content: '';
     background: rgba(51, 45, 46, 0.87);
     height: auto;
@@ -747,6 +744,10 @@ Style for Slider First
     left: 0;
     right: 0;
     visibility: hidden;
+}
+
+.new-product .swiper-slide-next:hover::after {
+    visibility: visible;
 }
 
 /*
@@ -811,9 +812,6 @@ Style for baby shop in gallery  slider block
     margin: 0;
 }
 
-
-
-
 /*
 --------------------------------------------------------------
 Style for Featured Product block
@@ -824,7 +822,7 @@ Style for Featured Product block
 
 }
 
-.featured .featureProd h2{
+.featured .featureProd h2 {
     position: absolute;
     top: -72px;
     left: 28px;
@@ -849,8 +847,6 @@ Style for Featured Product block
     background: #f0626e;
 }
 
-
-
 .featured .swiper-slide {
     border: 1px solid #dddddd;
 }
@@ -869,7 +865,7 @@ Style for Featured Product block
     position: absolute;
     top: 12px;
     left: 0;
-    padding:12px 9px;
+    padding: 12px 9px;
 }
 
 .featured .swiper-slide-next + div figure::after {
@@ -881,7 +877,7 @@ Style for Featured Product block
     position: absolute;
     top: 12px;
     left: 0;
-    padding:12px 25px;
+    padding: 12px 25px;
 }
 
 .featured .swiper-slide-next + div p {
@@ -892,7 +888,7 @@ Style for Featured Product block
     background: #05aecc;
 }
 
-.featured .swiper-slide >  div:first-of-type {
+.featured .swiper-slide > div:first-of-type {
     padding: 8px 0 11px 11px;
 }
 
@@ -984,7 +980,7 @@ Style for "Who We Are" block
 .who-we-are::before {
     content: 'Who We Are';
     position: absolute;
-    top: -48px;
+    top: -47px;
     left: 28px;
     font-size: 30px;
     font-family: 'Lato', sans-serif;
@@ -1002,10 +998,6 @@ Style for "Who We Are" block
     margin: 0;
 }
 
-.who-we-are a {
-    display: block;
-}
-
 .who-we-are > div {
     display: flex;
     justify-content: space-between;
@@ -1014,6 +1006,7 @@ Style for "Who We Are" block
 
 .who-we-are > div > div {
     margin-right: 28px;
+    padding: 26px 37px 25px 38px;
 }
 
 .who-we-are > div > div:last-child {
@@ -1021,12 +1014,11 @@ Style for "Who We Are" block
 }
 
 .who-we-are > div > div a {
-    padding: 28px 40px 17px 40px;
     display: flex;
     justify-content: space-between;
 }
 
-.who-we-are > div > div div {
+.who-we-are a div {
     align-self: center;
     align-items: center;
 }
@@ -1158,6 +1150,7 @@ footer h4 {
     color: #fff;
     font-size: 31px;
 }
+
 /*Style Flickr button*/
 .footer-layout div:last-child ul li:first-child + li + li + li a {
     border: 1px solid #e1e1e1;
@@ -1219,24 +1212,29 @@ ADAPTIVE CODE
 ----------------------------
 */
 
-
 @media (max-width: 1024px) {
     .header-left {
         width: 20%;
     }
-    .header-right{
+
+    .header-right {
         width: 78%;
     }
+
     .nav-after-header .workspace > ul {
         padding: 0 36px;
         margin: 0 19px;
     }
+
     .head-bottom-menu a {
         padding: 24px;
     }
+
     .logo {
         margin-left: 20px;
     }
-
+    .search-block {
+        padding: 40px 42px 40px 50px;
+    }
 }
 
