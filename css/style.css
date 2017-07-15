@@ -853,7 +853,7 @@ Style for Featured Product block
     width: auto;
 }
 
-.featured .swiper-slide-active figure::before {
+.featured .swiper-slide-active > figure::before {
     content: '20% off';
     background: #f0626e;
     color: #fff;
